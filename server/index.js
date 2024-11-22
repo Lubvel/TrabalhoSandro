@@ -32,7 +32,7 @@ app.post('/send-email', async (req, res) => {
     }
 
     const mailOptions = {
-        from: 'lnmoura@minha.fag.edu.br',
+        from: 'lnomoura@minha.fag.edu.br',
         to: email,
         subject: 'Obrigado por entrar em contato!',
         text: `Olá! Recebemos seu número (${phone}).`,
